@@ -127,6 +127,10 @@ nav .right a span {
     font-size: 45px;
 }
 
+.hero-section p {
+    font-size: 30px;
+}
+
 .hero-section .text .links {
     margin-top: 25px;
 }
