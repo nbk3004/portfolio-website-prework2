@@ -1,7 +1,7 @@
 :root {
     --text-color: black;
     --link-color: blue;
-    --background-color: rgb(240, 240, 221);
+    background-color: rgb(240, 240, 221);
 }
 
 * {
@@ -84,26 +84,29 @@ h1 {
 
 }
 
-.gallery,
+.gallery img:hover {
+    transform: scale(1.05);
+    /* Leichter Zoom beim Hover */
+}
+
 .gallery1 img:hover {
     transform: scale(1.05);
     /* Leichter Zoom beim Hover */
 }
 
 /* Rechte Spalte: Text */
-.text-section,
-{
-flex: 2;
-/* Textbereich soll den rechten Bereich einnehmen */
-background-color: white;
-padding: 10px;
+.text-section {
+    flex: 2;
+    background-color: rgb(240, 240, 221);
+    
+}
 
 
 
 .text-section p {
     font-size: 16px;
     line-height: 1.6;
-}
+    }
 
 
 

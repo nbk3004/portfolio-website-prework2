@@ -1,105 +1,110 @@
 :root {
-    --text-color: black;
-    --link-color: blue;
-    --background-color: rgb(240, 240, 221);
+  --text-color: black;
+  --link-color: blue;
+  background-color: rgb(240, 240, 221);
 }
 
 * {
-    margin: 0 10px;
-    margin-top: 15px;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0 10px;
+  margin-top: 15px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 
 header {
-    background-color: #333;
-    padding: 10px;
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 50px;
+  background-color: #333;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
 }
 
 
 .menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 .menu li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 .menu li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
 }
 
 .menu li a:hover {
-    background-color: #555;
-    border-radius: 5px;
+  background-color: #555;
+  border-radius: 5px;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 h2 {
-   margin-bottom: 10px;;
+  margin-bottom: 10px;
+  ;
 }
 
 h1 {
-   
-    color:black;
-    border-radius: 5px;
-    text-align: center;
-    margin-bottom: 80px;
-    }
 
-    details {
-        cursor: pointer;
-        border: 1px lightgrey solid;
-        max-width: 100%;
-             }
-             
-             p {
-                font-size: 1rem; /* Schriftgröße an die Bildschirmgröße anpassen */
-                line-height: 1.5;
-                margin: 0;
-                padding: 10px 10px;
-                transition: all 0.3s ease;
-              }
-              
-      
-    
-      
-      details[open] p {
-        background-color: (240, 240, 221); 
-             }
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 80px;
+}
 
-      /* Media Query für kleinere Bildschirme */
+details {
+  cursor: pointer;
+  border: 1px lightgrey solid;
+  max-width: 100%;
+}
+
+p {
+  font-size: 1rem;
+  /* Schriftgröße an die Bildschirmgröße anpassen */
+  line-height: 1.5;
+  margin: 0;
+  padding: 10px 10px;
+  transition: all 0.3s ease;
+}
+
+
+
+
+details[open] p {
+  background-color: rgb(240, 240, 221);
+}
+
+/* Media Query für kleinere Bildschirme */
 @media (max-width: 600px) {
-    body {
-      padding: 10px; /* Weniger Padding auf kleinen Bildschirmen */
-    }
-  
-    summary {
-      font-size: 1.1rem; /* Leicht kleinere Schriftgröße auf kleinen Bildschirmen */
-    }
-  
-    p {
-      font-size: 0.9rem; /* Anpassung der Schriftgröße auf kleinen Bildschirmen */
-    }
+  body {
+    padding: 10px;
+    /* Weniger Padding auf kleinen Bildschirmen */
   }
-      
+
+  summary {
+    font-size: 1.1rem;
+    /* Leicht kleinere Schriftgröße auf kleinen Bildschirmen */
+  }
+
+  p {
+    font-size: 0.9rem;
+    /* Anpassung der Schriftgröße auf kleinen Bildschirmen */
+  }
+}
