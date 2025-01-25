@@ -34,6 +34,7 @@ header {
 .menu li {
     display: inline;
     margin-right: 20px;
+    color: whitesmoke;
 }
 
 .menu li a {
@@ -167,8 +168,8 @@ nav .right a span {
     padding: 0 50px;
     margin-bottom: 100px;
     margin-top: 200px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
     border: 2px  gray solid;
     border-radius: 20px;
     padding: 3%;
