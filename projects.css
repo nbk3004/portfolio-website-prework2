@@ -77,9 +77,8 @@ details {
 
 p {
   font-size: 1rem;
-  /* Schriftgröße an die Bildschirmgröße anpassen */
   line-height: 1.5;
-  margin: 0;
+  margin: 20;
   padding: 10px 10px;
   transition: all 0.3s ease;
 }
